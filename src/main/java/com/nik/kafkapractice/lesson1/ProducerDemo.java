@@ -10,7 +10,7 @@ import java.util.Properties;
 public class ProducerDemo {
     public static void main(String[] args) {
         Logger logger = LoggerFactory.getLogger(ProducerDemo.class);
-        String bootstrapServers = "develop50-ucs.cisco.com:9092";
+        String bootstrapServers = "localhost:9092";
 
         /* producer properties */
         Properties properties = new Properties();
